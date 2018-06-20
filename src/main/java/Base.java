@@ -13,10 +13,8 @@ public class Base {
         do {
             System.out.println("Введите первое число: ");
             oper1.setOperandValue(scan.nextDouble());
-            //System.out.println(oper1.getOperandValue());
             System.out.println("Введите второе число: ");
             oper2.setOperandValue(scan.nextDouble());
-            //System.out.println(oper2.getOperandValue());
             System.out.println("Выберите тип операции по оператору(+,-,*,/):");
             String choice = scan.next();
             switch (choice) {
