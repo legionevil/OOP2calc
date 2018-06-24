@@ -7,4 +7,8 @@ public class Subtractor implements Operation {
         double result = operand1.getOperandValue() - operand2.getOperandValue();
         System.out.println("Результат вычитания = " + result);
     }
+    public double CalcOperationResult(Operand operand1, Operand operand2){
+        double result = operand1.getOperandValue() - operand2.getOperandValue();
+        return result;
+    }
 }

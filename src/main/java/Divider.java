@@ -18,4 +18,9 @@ public class Divider implements Operation {
             System.out.println("Результат деления = " + result);
         }
     }
+
+    public double CalcOperationResult(Operand operand1, Operand operand2){
+        double result = operand1.getOperandValue() / operand2.getOperandValue();
+        return result;
+    }
 }

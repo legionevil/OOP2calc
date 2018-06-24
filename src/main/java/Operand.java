@@ -18,6 +18,9 @@ public class Operand {
             //ex.printStackTrace();
             System.out.println("Введите число:");
             this.setOperandValue();
+        }}
+
+        public void setOperandValue(int value){
+            this.value = value;
         }
     }
-}
